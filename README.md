@@ -28,7 +28,7 @@ To create the coco fomat json file from the csv file please use the [csv_to_json
         {
             "area": "Area of the bbox",
             "bbox": "[ xmin, ymin, bbox_width,  bbox_hight ]",
-            "category_id": Id of the class from the classes list,
+            "category_id": "Id of the class from the classes list",
             "id": "Id of the annotated box"  ,
             "image_id": "id of the image",
             "iscrowd": ,
@@ -50,7 +50,7 @@ To create the coco fomat json file from the csv file please use the [csv_to_json
             "date_captured": "2022",
             "file_name": "name of image file",
             "height": "height of the image",
-            "id": "id of the imag"e,
+            "id": "id of the image",
             "license": 1,
             "url": "",
             "width": "width of the image"
