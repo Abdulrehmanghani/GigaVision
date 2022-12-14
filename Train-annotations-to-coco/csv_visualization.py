@@ -8,13 +8,14 @@ csv_name='training_data.csv'
 tracker_csv = pd.read_csv(csv_name)
 print(tracker_csv.tail())
 print("Start")
-imgs=glob.glob('data\\'+'*.jpg')
+
+imgs=glob.glob('Training_images/'+'*.jpg')
 if len(imgs)>0:
     for imge in imgs:
         img = cv2.imread(imge)
         orig=img.copy()
         print(imge.split('ta')[1])
-        frame_data=tracker_csv[tracker_csv['Frame_Number']=='I'+imge.split('\I')[1]].reset_index(drop=True)
+        frame_data=tracker_csv[tracker_csv['Frame_Number']==imge.split('/')[1]].reset_index(drop=True)
         print(frame_data)
         for i in range(len(frame_data)):
             clas = frame_data['Class'][i]
@@ -31,18 +32,5 @@ if len(imgs)>0:
             print(frame_data['xmin'][i]*width)
             cv2.rectangle(img,(xmin,ymin),
                                   (xmax,ymax),(0,0,255),10)
-            # elif clas== "Head_Player":
-            #     cv2.rectangle(img,(xmin,ymin),
-            #                       (xmax,ymax),(0,255,0),2)
-            # else:
-            #     cv2.rectangle(img,(xmin,ymin),
-            #                       (xmax,ymax),(255,255,255),2)
-
-        #         elif frame_data['team_id'][i] == 1:
-        #             cv2.rectangle(img,(xmin,ymin),
-        #                               (xmax,ymax),(0,0,255),2)
-        #         elif frame_data['team_id'][i] == -1:
-        #             cv2.rectangle(img,(xmin,ymin),
-        #                               (xmax,ymax),(255,255,255),2)
-        
-        cv2.imwrite("img.jpg",img)
+           
+        cv2.imwrite("images/"+imge.split('/')[1],img)
