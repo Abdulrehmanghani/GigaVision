@@ -62,7 +62,7 @@ To run the [csv_to_json.py](./Train-annotations-to-coco/csv_to_json.py) please a
 ## Visualization
 To visualize the perpared csv and json please use the following code.
 
-For visualization of the csv file on the traing images please use [csv_visualization.py](./Train-annotations-to-coco/csv_visualization.py) and add the `</Training data csv/> file and `</Training images folder/>`.
+For visualization of the csv file on the traing images please use [csv_visualization.py](./Train-annotations-to-coco/csv_visualization.py) and add the `</Training data csv/>` file and `</Training images folder/>`.
 
-For visualization of the json file on the traing images please use [json_visualization.py](./Train-annotations-to-coco/json_visualization.py) and add the `</Training data json/> file and `</Training images folder/>`.
+For visualization of the json file on the traing images please use [json_visualization.py](./Train-annotations-to-coco/json_visualization.py) and add the `</Training data json/>` file and `</Training images folder/>`.
 
