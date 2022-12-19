@@ -21,7 +21,7 @@ The csv file is created by the [coco_data_prep.ipynb](./Train-annotations-to-coc
 
 To run the [coco_data_prep.ipynb](./Train-annotations-to-coco/coco_data_prep.ipynb) please add the `</person training annotation/>` file and `</vehicle training annotation/>` file. It will discard the data about the `</vehicles, fake, unsure and ignore/>` objects.
 
-## Create the coco fomat json from the csv 
+### Create the coco fomat json from the csv 
 To create the coco fomat json file from the csv file please use the [csv_to_json.py](./Train-annotations-to-coco/csv_to_json.py). The fomat of the json file will be as following.
 
 ```json
