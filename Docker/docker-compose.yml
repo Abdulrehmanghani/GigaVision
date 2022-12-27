@@ -1,0 +1,12 @@
+version: "3.3"
+
+
+services:
+  data_prep:
+    build:
+      context: ./data_prep/
+      dockerfile: Dockerfile
+    volumes: 
+      - "./data_prep:/data_prep"
+     
+    

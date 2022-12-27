@@ -1,0 +1,56 @@
+INFO 2022-12-27 12:34:23,881 - Starting data prepration
+INFO 2022-12-27 12:34:23,893 - Tracking data perpared successfully
+INFO 2022-12-27 12:34:56,935 - Starting data prepration
+INFO 2022-12-27 12:34:57,199 - Tracking data perpared successfully
+INFO 2022-12-27 12:39:48,913 - Starting data prepration
+INFO 2022-12-27 12:39:48,923 - Tracking data perpared successfully
+INFO 2022-12-27 12:40:11,434 - Starting data prepration
+INFO 2022-12-27 12:40:54,937 - Tracking data perpared successfully
+INFO 2022-12-27 14:02:58,144 - Starting data prepration
+INFO 2022-12-27 14:03:44,786 - Tracking data perpared successfully
+INFO 2022-12-27 14:16:19,345 - Starting data prepration
+INFO 2022-12-27 14:17:03,879 - Tracking data csv created successfully
+INFO 2022-12-27 14:17:04,150 - Tracking data json created successfully
+INFO 2022-12-27 14:34:20,755 - Starting data prepration
+INFO 2022-12-27 14:35:05,948 - Tracking data csv created successfully
+INFO 2022-12-27 14:35:06,220 - Tracking data json created successfully
+INFO 2022-12-27 15:38:24,311 - Starting data prepration
+INFO 2022-12-27 15:39:08,179 - Tracking data csv created successfully
+INFO 2022-12-27 15:39:08,483 - Tracking data json created successfully
+INFO 2022-12-27 15:56:02,331 - Starting data prepration
+INFO 2022-12-27 15:56:47,810 - Tracking data csv created successfully
+INFO 2022-12-27 15:56:48,323 - Tracking data json created successfully
+INFO 2022-12-27 16:01:31,259 - Starting data prepration
+INFO 2022-12-27 16:02:18,783 - Tracking data csv created successfully
+INFO 2022-12-27 16:02:19,302 - Tracking data json created successfully
+INFO 2022-12-27 16:05:01,125 - Starting data prepration
+INFO 2022-12-27 16:05:01,704 - Tracking data json created successfully
+INFO 2022-12-27 16:17:20,904 - Starting data prepration
+INFO 2022-12-27 16:17:39,955 - Tracking data json created successfully
+INFO 2022-12-27 16:20:20,376 - Starting data prepration
+INFO 2022-12-27 16:20:38,910 - Tracking data json created successfully
+INFO 2022-12-27 16:37:18,719 - Starting data prepration
+INFO 2022-12-27 16:38:06,166 - Tracking data csv created successfully
+INFO 2022-12-27 16:38:24,559 - Tracking data json created successfully
+INFO 2022-12-27 16:38:24,861 - Tracking data split successfully
+INFO 2022-12-27 16:38:25,161 - Tracking data visualize successfully
+INFO 2022-12-27 16:44:17,430 - Starting data prepration
+INFO 2022-12-27 16:45:04,124 - Tracking data csv created successfully
+INFO 2022-12-27 16:45:22,743 - Tracking data json created successfully
+INFO 2022-12-27 16:45:23,054 - Tracking data split successfully
+INFO 2022-12-27 16:45:23,350 - Tracking data visualize successfully
+INFO 2022-12-27 16:51:30,487 - Starting data prepration
+INFO 2022-12-27 16:52:17,319 - Tracking data csv created successfully
+INFO 2022-12-27 16:52:35,969 - Tracking data json created successfully
+INFO 2022-12-27 16:52:36,262 - Tracking data split successfully
+INFO 2022-12-27 16:52:36,558 - Tracking data visualize successfully
+INFO 2022-12-27 16:57:31,622 - Starting data prepration
+INFO 2022-12-27 16:58:18,467 - Tracking data csv created successfully
+INFO 2022-12-27 16:58:37,205 - Tracking data json created successfully
+INFO 2022-12-27 16:58:39,344 - Tracking data split successfully
+INFO 2022-12-27 16:58:39,650 - Tracking data visualize successfully
+INFO 2022-12-27 17:01:50,322 - Starting data prepration
+INFO 2022-12-27 17:02:38,177 - Tracking data csv created successfully
+INFO 2022-12-27 17:02:56,319 - Tracking data json created successfully
+INFO 2022-12-27 17:02:58,374 - Tracking data split successfully
+INFO 2022-12-27 17:05:59,092 - Tracking data visualize successfully
