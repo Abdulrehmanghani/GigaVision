@@ -69,6 +69,7 @@ For visualization of the csv file on the traing images please use [csv_visualiza
 For visualization of the json file on the traing images please use [json_visualization.py](./Train-annotations-to-coco/json_visualization.py) and add the `</Training data json/>` file and `</Training images folder/>`.
 
 ## Tracking data to COCO 
+To run the docker solution use the docker folder
 
 To convert the the tracking data to the coco annotations format follow these steps.
 1. Create the csv from tracking data  
