@@ -69,7 +69,7 @@ for j in range(len(annot['Frame_Number'])):
             
         i=i+1
     annotations.append({"segmentation" : [],
-                        "area" : np.float(area),
+                        "area" : np.float64(area),
                         "iscrowd" : 0,
                         "image_id" : np.uint32(annot['image id'][j]).item(),
                         "bbox" : [xmin,ymin,w,h],
