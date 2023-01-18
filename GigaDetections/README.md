@@ -1,7 +1,7 @@
 # GigaDetection
 
 
-### Create the csv from gigadetection annotations 
+### Create the csv from Giga detection annotations 
 The csv file is created by the [selective_coco_annotations.ipynb](./selective_coco_annotations.ipynb) is contains the following fields.
 
 *   Frame_Number	
@@ -62,11 +62,3 @@ To visualize the perpared csv and json please use the following code.
 For visualization of the csv file on the traing images please use [csv_visualization.py](./csv_visualization.py) and add the `</Training data csv/>` file and `</Training images folder/>`.
 
 For visualization of the json file on the traing images please use [json_visualization.py](./json_visualization.py) and add the `</Training data json/>` file and `</Training images folder/>`.
-
-## Tracking data to COCO 
-To run the docker solution use the docker folder
-
-To convert the the tracking data to the coco annotations format follow these steps.
-1. Create the csv from tracking data  
-2. Create the coco fomat json from the csv 
-3. Visualization
