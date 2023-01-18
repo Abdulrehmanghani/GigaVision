@@ -1,7 +1,7 @@
 # GigaDetection
 
 
-### Create the csv from gigadetection annotaions 
+### Create the csv from gigadetection annotations 
 The csv file is created by the [selective_coco_annotations.ipynb](./selective_coco_annotations.ipynb) is contains the following fields.
 
 *   Frame_Number	
