@@ -30,11 +30,8 @@ cat2id = {cat["name"]: catId+1 for catId, cat in enumerate(soccer_coco["categori
 print(cat2id)
 
 
-annot=pd.read_csv('detr-main\\training_data.csv')
-#annot = annot[annot['Class']!='Head_Player'].reset_index(drop=True)
-print(len(annot.Frame_Number.unique()))
-
-
+annot=pd.read_csv('selective_combined_training_data.csv')
+print("Length of data:  ",len(annot.Frame_Number.unique()))
 
 coco_images = []
 annotations=[]
