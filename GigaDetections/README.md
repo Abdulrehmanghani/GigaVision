@@ -1,4 +1,4 @@
-# GigaDetection
+# Giga detection dataset
 
 
 ### Create the csv from Giga detection annotations 
